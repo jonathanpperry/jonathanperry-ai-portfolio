@@ -1,0 +1,15 @@
+{
+  "mutations": [
+    { "delete": { "id": "skill-accessibility" } },
+    { "delete": { "id": "skill-cypress" } },
+    { "delete": { "id": "skill-figma" } },
+    { "delete": { "id": "skill-github-actions" } },
+    { "delete": { "id": "skill-graphql" } },
+    { "delete": { "id": "skill-jest" } },
+    { "delete": { "id": "skill-kubernetes" } },
+    { "delete": { "id": "skill-mongodb" } },
+    { "delete": { "id": "skill-redis" } },
+    { "delete": { "id": "skill-tensorflow" } },
+    { "delete": { "id": "skill-terraform" } }
+  ]
+}

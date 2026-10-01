@@ -1,0 +1,76 @@
+{
+  "mutations": [
+    { "delete": { "id": "SzUxrrzdcuBDmahbHnU1pY" } },
+    { "delete": { "id": "contact-1" } },
+    { "delete": { "id": "contact-2" } },
+    { "delete": { "id": "contact-3" } },
+
+    { "delete": { "id": "nav-6" } },
+    { "delete": { "id": "nav-9" } },
+    { "delete": { "id": "nav-10" } },
+    { "delete": { "id": "nav-11" } },
+    { "delete": { "id": "nav-14" } },
+
+    {
+      "patch": {
+        "id": "nav-13",
+        "set": {
+          "href": "https://github.com/jonathanpperry"
+        }
+      }
+    },
+
+    {
+      "patch": {
+        "id": "singleton-profile",
+        "set": {
+          "headline": "Full-Stack Software Engineer",
+          "headlineStaticText": "I build",
+          "headlineAnimatedWords": [
+            "web applications",
+            "developer tools",
+            "interactive interfaces",
+            "software projects"
+          ],
+          "shortBio": "Jonathan Perry is a full-stack software engineer with experience building modern web applications using React, TypeScript, Node.js, AWS, and related technologies, with a growing focus on AI-assisted development."
+        },
+        "unset": [
+          "fullBio",
+          "stats",
+          "yearsOfExperience",
+          "socialLinks.devto"
+        ]
+      }
+    },
+
+    {
+      "patch": {
+        "id": "singleton-siteSettings",
+        "set": {
+          "siteTitle": "Jonathan Perry - Software Engineer",
+          "siteDescription": "Portfolio of Jonathan Perry, a software engineer focused on full-stack web development, cloud technologies, and modern JavaScript and TypeScript applications.",
+          "heroHeadline": "Building Modern Web Applications",
+          "heroSubheadline": "Software engineer working across React, TypeScript, Node.js, AWS, and AI-assisted development.",
+          "showBlog": false,
+          "showServices": false,
+          "showTestimonials": false,
+          "siteKeywords": [
+            "software engineer",
+            "full-stack developer",
+            "React",
+            "TypeScript",
+            "Node.js",
+            "Next.js",
+            "AWS",
+            "web development"
+          ],
+          "footer.copyrightText": "© 2026 Jonathan Perry. All rights reserved.",
+          "footer.text": "Software engineer focused on modern web applications, developer tooling, and thoughtful user experiences."
+        },
+        "unset": [
+          "footer.links"
+        ]
+      }
+    }
+  ]
+}

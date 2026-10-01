@@ -1,0 +1,56 @@
+{
+  "mutations": [
+    {
+      "patch": {
+        "id": "exp-1",
+        "unset": [
+          "achievements",
+          "responsibilities",
+          "technologies"
+        ]
+      }
+    },
+    {
+      "patch": {
+        "id": "exp-2",
+        "unset": [
+          "achievements",
+          "responsibilities",
+          "technologies"
+        ]
+      }
+    },
+    {
+      "patch": {
+        "id": "exp-3",
+        "unset": [
+          "achievements",
+          "responsibilities",
+          "technologies"
+        ]
+      }
+    },
+    {
+      "patch": {
+        "id": "exp-4",
+        "unset": [
+          "description",
+          "achievements",
+          "responsibilities",
+          "technologies"
+        ]
+      }
+    },
+    {
+      "patch": {
+        "id": "exp-5",
+        "unset": [
+          "description",
+          "achievements",
+          "responsibilities",
+          "technologies"
+        ]
+      }
+    }
+  ]
+}

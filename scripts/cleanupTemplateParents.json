@@ -1,0 +1,54 @@
+{
+  "mutations": [
+    { "delete": { "id": "proj-1" } },
+    { "delete": { "id": "proj-2" } },
+    { "delete": { "id": "proj-3" } },
+    { "delete": { "id": "proj-4" } },
+    { "delete": { "id": "proj-5" } },
+    { "delete": { "id": "proj-6" } },
+
+    { "delete": { "id": "service-1" } },
+    { "delete": { "id": "service-2" } },
+    { "delete": { "id": "service-3" } },
+    { "delete": { "id": "service-4" } },
+    { "delete": { "id": "service-5" } },
+    { "delete": { "id": "service-6" } },
+
+    { "delete": { "id": "cert-2" } },
+    { "delete": { "id": "cert-4" } },
+    { "delete": { "id": "cert-5" } },
+
+    {
+      "patch": {
+        "id": "cert-1",
+        "set": {
+          "skills": [
+            {
+              "_key": "ECoIEB8W",
+              "_type": "reference",
+              "_ref": "skill-aws"
+            }
+          ]
+        },
+        "unset": [
+          "credentialId"
+        ]
+      }
+    },
+
+    {
+      "patch": {
+        "id": "cert-3",
+        "set": {
+          "skills": [
+            {
+              "_key": "qIxpmDOr",
+              "_type": "reference",
+              "_ref": "skill-aws"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

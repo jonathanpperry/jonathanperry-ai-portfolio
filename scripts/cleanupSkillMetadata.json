@@ -1,0 +1,13 @@
+{
+  "mutations": [
+    {
+      "patch": {
+        "query": "*[_type == 'skill']",
+        "unset": [
+          "proficiency",
+          "yearsOfExperience"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "mutations": [
+    { "delete": { "id": "edu-3" } },
+
+    { "delete": { "id": "achieve-1" } },
+    { "delete": { "id": "achieve-2" } },
+    { "delete": { "id": "achieve-3" } },
+    { "delete": { "id": "achieve-4" } },
+    { "delete": { "id": "achieve-5" } },
+    { "delete": { "id": "achieve-6" } },
+    { "delete": { "id": "achieve-7" } },
+    { "delete": { "id": "achieve-8" } },
+    { "delete": { "id": "achieve-9" } },
+    { "delete": { "id": "achieve-10" } },
+
+    { "delete": { "id": "blog-1" } },
+    { "delete": { "id": "blog-2" } },
+    { "delete": { "id": "blog-3" } },
+    { "delete": { "id": "blog-4" } },
+    { "delete": { "id": "blog-5" } },
+    { "delete": { "id": "blog-6" } },
+
+    { "delete": { "id": "test-1" } },
+    { "delete": { "id": "test-2" } },
+    { "delete": { "id": "test-3" } },
+    { "delete": { "id": "test-4" } },
+    { "delete": { "id": "test-5" } },
+    { "delete": { "id": "test-6" } },
+    { "delete": { "id": "test-7" } },
+    { "delete": { "id": "test-8" } }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "mutations": [
+    { "delete": { "id": "skill-angular" } },
+    { "delete": { "id": "skill-elasticsearch" } },
+    { "delete": { "id": "skill-flutter" } },
+    { "delete": { "id": "skill-gcp" } },
+    { "delete": { "id": "skill-jenkins" } },
+    { "delete": { "id": "skill-leadership" } },
+    { "delete": { "id": "skill-communication" } },
+    { "delete": { "id": "skill-problem-solving" } },
+    { "delete": { "id": "skill-websockets" } }
+  ]
+}
